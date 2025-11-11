@@ -29,6 +29,7 @@ pacman::p_load(
   sf,
   rmapshaper,
   cowplot,
+  RColorBrewer
   strayr
 )
 
@@ -213,3 +214,4 @@ ggsave(paste0(output_path,paste0("map_export_", sa_level, ".jpg")),
        width = 23, height = 18, dpi = dpi_value, units = "cm"
 )
 message(" **** Map complete! Check output folder ****")
+
